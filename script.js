@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     cards.forEach ((card)=>{
       const month= card.getAttribute('data-month').toLowerCase();
       if (month.includes(query)){
-        card.style.display = 'block';
+        card.style.display = '';
       } else {
           card.style.display = 'none';
       }
